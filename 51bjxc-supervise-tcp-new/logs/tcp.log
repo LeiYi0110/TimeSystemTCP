@@ -1,0 +1,361 @@
+2017-05-08 19:26:51 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-05-08 19:26:51 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-05-08 19:26:51 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@56f4468b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6cc4c815, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a82f6ef, org.springframework.test.context.transaction.TransactionalTestExecutionListener@100fc185, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@643b1d11]
+2017-05-08 19:26:51 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-05-08 19:26:52 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2017-05-08 19:26:52 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-supervise.xml]
+2017-05-08 19:26:52 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-http.xml]
+2017-05-08 19:26:52 [org.springframework.context.support.GenericApplicationContext]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@f6c48ac: startup date [Mon May 08 19:26:52 CST 2017]; root of context hierarchy
+2017-05-08 19:26:52 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\db.properties]
+2017-05-08 19:26:52 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\httpclient.properties]
+2017-05-08 19:26:52 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\log4j.properties]
+2017-05-08 19:26:52 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\redis.properties]
+2017-05-08 19:26:52 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\supervise.properties]
+2017-05-08 19:26:52 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\841\0\.cp\plugin.properties]
+2017-05-08 19:26:52 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\840\0\.cp\plugin.properties]
+2017-05-08 19:26:52 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from URL [jar:file:/C:/Users/alogol/AppData/Local/MyEclipse%202016%20CI/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/plugin.properties]
+2017-05-08 19:26:53 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-05-08 19:26:54 [com.bjxc.jtt.JttClient]-[INFO] JTT连接到服务器59.32.177.26:3043
+2017-05-08 19:26:54 [com.bjxc.jtt.JTTHandler]-[INFO] 连接jtt成功
+2017-05-08 19:26:54 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:26:54 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000480000000110010013D62C01020300000368700013D62D31333030303134003131322E37342E3132392E37000000000000000000000000000000000000000021240F235D
+2017-05-08 19:26:54 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] TCP连接到省平台114.55.41.128:8585
+2017-05-08 19:26:54 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] Connect province tcp server success
+2017-05-08 19:26:54 [org.springframework.context.support.ClassPathXmlApplicationContext]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d89682f: startup date [Mon May 08 19:26:54 CST 2017]; root of context hierarchy
+2017-05-08 19:26:54 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\applicationContext.xml]
+2017-05-08 19:26:54 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-mybatis.xml]
+2017-05-08 19:26:54 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-supervise.xml]
+2017-05-08 19:26:54 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-http.xml]
+2017-05-08 19:26:55 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\db.properties]
+2017-05-08 19:26:55 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\httpclient.properties]
+2017-05-08 19:26:55 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\log4j.properties]
+2017-05-08 19:26:55 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\redis.properties]
+2017-05-08 19:26:55 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\supervise.properties]
+2017-05-08 19:26:55 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\841\0\.cp\plugin.properties]
+2017-05-08 19:26:55 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\840\0\.cp\plugin.properties]
+2017-05-08 19:26:55 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from URL [jar:file:/C:/Users/alogol/AppData/Local/MyEclipse%202016%20CI/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/plugin.properties]
+2017-05-08 19:26:55 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-05-08 19:26:55 [com.bjxc.jtt.JttClient]-[INFO] JTT连接到服务器59.32.177.26:3043
+2017-05-08 19:26:55 [com.bjxc.jtt.JTTHandler]-[INFO] 连接jtt成功
+2017-05-08 19:26:55 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:26:55 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000480000000310010013D62C01020300000368700013D62D31333030303134003131322E37342E3132392E3700000000000000000000000000000000000000002124BC435D
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] TCP连接到省平台114.55.41.128:8585
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] Connect province tcp server success
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send start 
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.MessageEncode]-[INFO] ---- MessageEncode ----
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send start 
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.MessageEncode]-[INFO] jspt send message:7E8001F0001100000888999900000001004130303431313233343536373800BC614E3E7E
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.MessageEncode]-[INFO] ---- MessageEncode ----
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.MessageEncode]-[INFO] jspt send message:7E8001F0001100000888999900000001004130303431313233343536373800BC614E3E7E
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send end
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send end
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] originalMessage：8081F00001000008889999000004613C0128
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 省平台返回消息: ffff81f0
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 登录省平台返回结果：1
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] originalMessage：8081F00001000008889999000004693C0120
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 省平台返回消息: ffff81f0
+2017-05-08 19:26:55 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 登录省平台返回结果：1
+2017-05-08 19:26:55 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:26:55 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001F0017E19A10020013D62C0100000000036870010001E240B6155D
+2017-05-08 19:26:55 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001F, serialNumber=0017E19A, type=1002, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=010001E240B6155D
+2017-05-08 19:26:56 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-05-08 19:26:56 [org.springframework.jdbc.support.SQLErrorCodesFactory]-[INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-05-08 19:26:56 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:26:56 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:26:56 [org.springframework.context.support.GenericApplicationContext]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@f6c48ac: startup date [Mon May 08 19:26:52 CST 2017]; root of context hierarchy
+2017-05-08 19:27:33 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-05-08 19:27:33 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-05-08 19:27:33 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3967e60c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@60d8c9b7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@48aaecc3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7c0c77c7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7adda9cc]
+2017-05-08 19:27:33 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-05-08 19:27:33 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2017-05-08 19:27:33 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-supervise.xml]
+2017-05-08 19:27:33 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-http.xml]
+2017-05-08 19:27:33 [org.springframework.context.support.GenericApplicationContext]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@6973b51b: startup date [Mon May 08 19:27:33 CST 2017]; root of context hierarchy
+2017-05-08 19:27:34 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\db.properties]
+2017-05-08 19:27:34 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\httpclient.properties]
+2017-05-08 19:27:34 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\log4j.properties]
+2017-05-08 19:27:34 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\redis.properties]
+2017-05-08 19:27:34 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\supervise.properties]
+2017-05-08 19:27:34 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\841\0\.cp\plugin.properties]
+2017-05-08 19:27:34 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\840\0\.cp\plugin.properties]
+2017-05-08 19:27:34 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from URL [jar:file:/C:/Users/alogol/AppData/Local/MyEclipse%202016%20CI/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/plugin.properties]
+2017-05-08 19:27:34 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-05-08 19:27:37 [com.bjxc.jtt.JttClient]-[INFO] JTT连接到服务器59.32.177.26:3043
+2017-05-08 19:27:37 [com.bjxc.jtt.JTTHandler]-[INFO] 连接jtt成功
+2017-05-08 19:27:37 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:27:37 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000480000000110010013D62C01020300000368700013D62D31333030303134003131322E37342E3132392E37000000000000000000000000000000000000000021240F235D
+2017-05-08 19:27:37 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] TCP连接到省平台114.55.41.128:8585
+2017-05-08 19:27:37 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] Connect province tcp server success
+2017-05-08 19:27:37 [org.springframework.context.support.ClassPathXmlApplicationContext]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@539747dd: startup date [Mon May 08 19:27:37 CST 2017]; root of context hierarchy
+2017-05-08 19:27:37 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\applicationContext.xml]
+2017-05-08 19:27:37 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-mybatis.xml]
+2017-05-08 19:27:37 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-supervise.xml]
+2017-05-08 19:27:37 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-http.xml]
+2017-05-08 19:27:37 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\db.properties]
+2017-05-08 19:27:37 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\httpclient.properties]
+2017-05-08 19:27:37 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\log4j.properties]
+2017-05-08 19:27:37 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\redis.properties]
+2017-05-08 19:27:37 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\supervise.properties]
+2017-05-08 19:27:37 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\841\0\.cp\plugin.properties]
+2017-05-08 19:27:37 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\840\0\.cp\plugin.properties]
+2017-05-08 19:27:37 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from URL [jar:file:/C:/Users/alogol/AppData/Local/MyEclipse%202016%20CI/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/plugin.properties]
+2017-05-08 19:27:37 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-05-08 19:27:37 [com.bjxc.jtt.JTTHandler]-[INFO] 连接jtt成功
+2017-05-08 19:27:37 [com.bjxc.jtt.JttClient]-[INFO] JTT连接到服务器59.32.177.26:3043
+2017-05-08 19:27:37 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:27:37 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000480000000310010013D62C01020300000368700013D62D31333030303134003131322E37342E3132392E3700000000000000000000000000000000000000002124BC435D
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] TCP连接到省平台114.55.41.128:8585
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] Connect province tcp server success
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send start 
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send start 
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.MessageEncode]-[INFO] ---- MessageEncode ----
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.MessageEncode]-[INFO] ---- MessageEncode ----
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.MessageEncode]-[INFO] jspt send message:7E8001F0001100000888999900000001004130303431313233343536373800BC614E3E7E
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send end
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.MessageEncode]-[INFO] jspt send message:7E8001F0001100000888999900000001004130303431313233343536373800BC614E3E7E
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send end
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] originalMessage：8081F0000100000888999900001BCC3C019A
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] originalMessage：8081F0000100000888999900001BCD3C019B
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 省平台返回消息: ffff81f0
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 省平台返回消息: ffff81f0
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 登录省平台返回结果：1
+2017-05-08 19:27:38 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 登录省平台返回结果：1
+2017-05-08 19:27:38 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:27:38 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001F0017FEA910020013D62C0100000000036870010001E2401D0E5D
+2017-05-08 19:27:38 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001F, serialNumber=0017FEA9, type=1002, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=010001E2401D0E5D
+2017-05-08 19:27:39 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:27:39 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001F0018009E10020013D62C0100000000036870010001E240DA845D
+2017-05-08 19:27:39 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001F, serialNumber=0018009E, type=1002, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=010001E240DA845D
+2017-05-08 19:27:39 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-05-08 19:27:39 [org.springframework.jdbc.support.SQLErrorCodesFactory]-[INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-05-08 19:27:39 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:27:39 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:27:39 [org.springframework.context.support.GenericApplicationContext]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@6973b51b: startup date [Mon May 08 19:27:33 CST 2017]; root of context hierarchy
+2017-05-08 19:28:15 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-05-08 19:28:15 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-05-08 19:28:15 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3967e60c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@60d8c9b7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@48aaecc3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7c0c77c7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7adda9cc]
+2017-05-08 19:28:15 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-05-08 19:28:15 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2017-05-08 19:28:16 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-supervise.xml]
+2017-05-08 19:28:16 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-http.xml]
+2017-05-08 19:28:16 [org.springframework.context.support.GenericApplicationContext]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@6973b51b: startup date [Mon May 08 19:28:16 CST 2017]; root of context hierarchy
+2017-05-08 19:28:16 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\db.properties]
+2017-05-08 19:28:16 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\httpclient.properties]
+2017-05-08 19:28:16 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\log4j.properties]
+2017-05-08 19:28:16 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\redis.properties]
+2017-05-08 19:28:16 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\supervise.properties]
+2017-05-08 19:28:16 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\841\0\.cp\plugin.properties]
+2017-05-08 19:28:16 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\840\0\.cp\plugin.properties]
+2017-05-08 19:28:16 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from URL [jar:file:/C:/Users/alogol/AppData/Local/MyEclipse%202016%20CI/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/plugin.properties]
+2017-05-08 19:28:17 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-05-08 19:28:18 [com.bjxc.jtt.JttClient]-[INFO] JTT连接到服务器59.32.177.26:3043
+2017-05-08 19:28:18 [com.bjxc.jtt.JTTHandler]-[INFO] 连接jtt成功
+2017-05-08 19:28:18 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:28:18 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000480000000110010013D62C01020300000368700013D62D31333030303134003131322E37342E3132392E37000000000000000000000000000000000000000021240F235D
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] TCP连接到省平台114.55.41.128:8585
+2017-05-08 19:28:19 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] Connect province tcp server success
+2017-05-08 19:28:19 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001A0018087010060013D62C010000000003687007EC5D
+2017-05-08 19:28:19 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001A, serialNumber=00180870, type=1006, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=07EC5D
+2017-05-08 19:28:19 [org.springframework.context.support.ClassPathXmlApplicationContext]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@41935b25: startup date [Mon May 08 19:28:19 CST 2017]; root of context hierarchy
+2017-05-08 19:28:19 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\applicationContext.xml]
+2017-05-08 19:28:19 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-mybatis.xml]
+2017-05-08 19:28:19 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-supervise.xml]
+2017-05-08 19:28:19 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-http.xml]
+2017-05-08 19:28:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\db.properties]
+2017-05-08 19:28:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\httpclient.properties]
+2017-05-08 19:28:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\log4j.properties]
+2017-05-08 19:28:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\redis.properties]
+2017-05-08 19:28:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\supervise.properties]
+2017-05-08 19:28:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\841\0\.cp\plugin.properties]
+2017-05-08 19:28:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\840\0\.cp\plugin.properties]
+2017-05-08 19:28:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from URL [jar:file:/C:/Users/alogol/AppData/Local/MyEclipse%202016%20CI/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/plugin.properties]
+2017-05-08 19:28:19 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-05-08 19:28:19 [com.bjxc.jtt.JttClient]-[INFO] JTT连接到服务器59.32.177.26:3043
+2017-05-08 19:28:19 [com.bjxc.jtt.JTTHandler]-[INFO] 连接jtt成功
+2017-05-08 19:28:19 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:28:19 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000480000000310010013D62C01020300000368700013D62D31333030303134003131322E37342E3132392E3700000000000000000000000000000000000000002124BC435D
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] TCP连接到省平台114.55.41.128:8585
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] Connect province tcp server success
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send start 
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send start 
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.MessageEncode]-[INFO] ---- MessageEncode ----
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.MessageEncode]-[INFO] ---- MessageEncode ----
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.MessageEncode]-[INFO] jspt send message:7E8001F0001100000888999900000001004130303431313233343536373800BC614E3E7E
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.MessageEncode]-[INFO] jspt send message:7E8001F0001100000888999900000001004130303431313233343536373800BC614E3E7E
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send end
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send end
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] originalMessage：8081F00001000008889999000032EB3C0194
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] originalMessage：8081F00001000008889999000032EA3C0195
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 省平台返回消息: ffff81f0
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 省平台返回消息: ffff81f0
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 登录省平台返回结果：1
+2017-05-08 19:28:19 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 登录省平台返回结果：1
+2017-05-08 19:28:20 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:28:20 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001F0018087110020013D62C0100000000036870010001E24021625D
+2017-05-08 19:28:20 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001F, serialNumber=00180871, type=1002, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=010001E24021625D
+2017-05-08 19:28:20 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-05-08 19:28:20 [org.springframework.jdbc.support.SQLErrorCodesFactory]-[INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-05-08 19:28:20 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:28:20 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:28:21 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:28:21 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001F0018087210020013D62C0100000000036870010001E2407FB75D
+2017-05-08 19:28:21 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001F, serialNumber=00180872, type=1002, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=010001E2407FB75D
+2017-05-08 19:29:17 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-05-08 19:29:17 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-05-08 19:29:17 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3967e60c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@60d8c9b7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@48aaecc3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7c0c77c7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7adda9cc]
+2017-05-08 19:29:17 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-05-08 19:29:18 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2017-05-08 19:29:18 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-supervise.xml]
+2017-05-08 19:29:18 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-http.xml]
+2017-05-08 19:29:18 [org.springframework.context.support.GenericApplicationContext]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@6973b51b: startup date [Mon May 08 19:29:18 CST 2017]; root of context hierarchy
+2017-05-08 19:29:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\db.properties]
+2017-05-08 19:29:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\httpclient.properties]
+2017-05-08 19:29:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\log4j.properties]
+2017-05-08 19:29:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\redis.properties]
+2017-05-08 19:29:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\supervise.properties]
+2017-05-08 19:29:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\841\0\.cp\plugin.properties]
+2017-05-08 19:29:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\840\0\.cp\plugin.properties]
+2017-05-08 19:29:19 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from URL [jar:file:/C:/Users/alogol/AppData/Local/MyEclipse%202016%20CI/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/plugin.properties]
+2017-05-08 19:29:19 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-05-08 19:29:21 [com.bjxc.jtt.JttClient]-[INFO] JTT连接到服务器59.32.177.26:3043
+2017-05-08 19:29:21 [com.bjxc.jtt.JTTHandler]-[INFO] 连接jtt成功
+2017-05-08 19:29:21 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:29:21 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000480000000110010013D62C01020300000368700013D62D31333030303134003131322E37342E3132392E37000000000000000000000000000000000000000021240F235D
+2017-05-08 19:29:21 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] TCP连接到省平台114.55.41.128:8585
+2017-05-08 19:29:21 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] Connect province tcp server success
+2017-05-08 19:29:21 [org.springframework.context.support.ClassPathXmlApplicationContext]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2fc2c769: startup date [Mon May 08 19:29:21 CST 2017]; root of context hierarchy
+2017-05-08 19:29:21 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\applicationContext.xml]
+2017-05-08 19:29:21 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-mybatis.xml]
+2017-05-08 19:29:21 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-supervise.xml]
+2017-05-08 19:29:21 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-http.xml]
+2017-05-08 19:29:22 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\db.properties]
+2017-05-08 19:29:22 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\httpclient.properties]
+2017-05-08 19:29:22 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\log4j.properties]
+2017-05-08 19:29:22 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\redis.properties]
+2017-05-08 19:29:22 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\supervise.properties]
+2017-05-08 19:29:22 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\841\0\.cp\plugin.properties]
+2017-05-08 19:29:22 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\840\0\.cp\plugin.properties]
+2017-05-08 19:29:22 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from URL [jar:file:/C:/Users/alogol/AppData/Local/MyEclipse%202016%20CI/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/plugin.properties]
+2017-05-08 19:29:22 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-05-08 19:29:22 [com.bjxc.jtt.JttClient]-[INFO] JTT连接到服务器59.32.177.26:3043
+2017-05-08 19:29:22 [com.bjxc.jtt.JTTHandler]-[INFO] 连接jtt成功
+2017-05-08 19:29:22 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:29:22 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000480000000310010013D62C01020300000368700013D62D31333030303134003131322E37342E3132392E3700000000000000000000000000000000000000002124BC435D
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] TCP连接到省平台114.55.41.128:8585
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] Connect province tcp server success
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send start 
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send start 
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.MessageEncode]-[INFO] ---- MessageEncode ----
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.MessageEncode]-[INFO] ---- MessageEncode ----
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.MessageEncode]-[INFO] jspt send message:7E8001F0001100000888999900000001004130303431313233343536373800BC614E3E7E
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.MessageEncode]-[INFO] jspt send message:7E8001F0001100000888999900000001004130303431313233343536373800BC614E3E7E
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send end
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send end
+2017-05-08 19:29:22 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:29:22 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001F0018143210020013D62C0100000000036870010001E240E4DA5D
+2017-05-08 19:29:22 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001F, serialNumber=00181432, type=1002, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=010001E240E4DA5D
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] originalMessage：8081F00001000008889999000057543C014E
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] originalMessage：8081F00001000008889999000057553C014F
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 省平台返回消息: ffff81f0
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 登录省平台返回结果：1
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 省平台返回消息: ffff81f0
+2017-05-08 19:29:22 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 登录省平台返回结果：1
+2017-05-08 19:29:23 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-05-08 19:29:23 [org.springframework.jdbc.support.SQLErrorCodesFactory]-[INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-05-08 19:29:23 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:29:23 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:29:23 [com.bjxc.supervise.service.AutoRecordCheckService]-[INFO] 分钟学时自动审核开始.....36512826759659841704010929
+2017-05-08 19:29:23 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:29:23 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001F0018143310020013D62C0100000000036870010001E240D1695D
+2017-05-08 19:29:23 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001F, serialNumber=00181433, type=1002, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=010001E240D1695D
+2017-05-08 19:30:21 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:30:21 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000000000000010050013D62C01020300000368701B355D
+2017-05-08 19:30:21 [com.bjxc.jtt.JTTHandler]-[INFO] 发送jtt心跳
+2017-05-08 19:30:21 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:30:21 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001A00181FEC10060013D62C0100000000036870EA165D
+2017-05-08 19:30:21 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001A, serialNumber=00181FEC, type=1006, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=EA165D
+2017-05-08 19:30:22 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:30:22 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000000000000210050013D62C010203000003687056EC5D
+2017-05-08 19:30:22 [com.bjxc.jtt.JTTHandler]-[INFO] 发送jtt心跳
+2017-05-08 19:30:22 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:30:22 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001A00181FED10060013D62C010000000003687044EA5D
+2017-05-08 19:30:22 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001A, serialNumber=00181FED, type=1006, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=44EA5D
+2017-05-08 19:31:13 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-05-08 19:31:13 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-05-08 19:31:13 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3967e60c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@60d8c9b7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@48aaecc3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7c0c77c7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7adda9cc]
+2017-05-08 19:31:13 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-05-08 19:31:13 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2017-05-08 19:31:13 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-supervise.xml]
+2017-05-08 19:31:13 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/spring-http.xml]
+2017-05-08 19:31:14 [org.springframework.context.support.GenericApplicationContext]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@6973b51b: startup date [Mon May 08 19:31:13 CST 2017]; root of context hierarchy
+2017-05-08 19:31:14 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\db.properties]
+2017-05-08 19:31:14 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\httpclient.properties]
+2017-05-08 19:31:14 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\log4j.properties]
+2017-05-08 19:31:14 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\redis.properties]
+2017-05-08 19:31:14 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\supervise.properties]
+2017-05-08 19:31:14 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\841\0\.cp\plugin.properties]
+2017-05-08 19:31:14 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\840\0\.cp\plugin.properties]
+2017-05-08 19:31:14 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from URL [jar:file:/C:/Users/alogol/AppData/Local/MyEclipse%202016%20CI/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/plugin.properties]
+2017-05-08 19:31:15 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-05-08 19:31:17 [com.bjxc.jtt.JttClient]-[INFO] JTT连接到服务器59.32.177.26:3043
+2017-05-08 19:31:17 [com.bjxc.jtt.JTTHandler]-[INFO] 连接jtt成功
+2017-05-08 19:31:17 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:31:17 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000480000000110010013D62C01020300000368700013D62D31333030303134003131322E37342E3132392E37000000000000000000000000000000000000000021240F235D
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] TCP连接到省平台114.55.41.128:8585
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] Connect province tcp server success
+2017-05-08 19:31:17 [org.springframework.context.support.ClassPathXmlApplicationContext]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@38f8fc44: startup date [Mon May 08 19:31:17 CST 2017]; root of context hierarchy
+2017-05-08 19:31:17 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\applicationContext.xml]
+2017-05-08 19:31:17 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-mybatis.xml]
+2017-05-08 19:31:17 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-supervise.xml]
+2017-05-08 19:31:17 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\spring\spring-http.xml]
+2017-05-08 19:31:17 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\db.properties]
+2017-05-08 19:31:17 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\httpclient.properties]
+2017-05-08 19:31:17 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\log4j.properties]
+2017-05-08 19:31:17 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\redis.properties]
+2017-05-08 19:31:17 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\workspace\51bjxc-supervise-tcp-new\target\classes\supervise.properties]
+2017-05-08 19:31:17 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\841\0\.cp\plugin.properties]
+2017-05-08 19:31:17 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from file [C:\Users\alogol\AppData\Local\MyEclipse 2016 CI\configuration\org.eclipse.osgi\840\0\.cp\plugin.properties]
+2017-05-08 19:31:17 [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]-[INFO] Loading properties file from URL [jar:file:/C:/Users/alogol/AppData/Local/MyEclipse%202016%20CI/plugins/org.hamcrest.core_1.3.0.v201303031735.jar!/plugin.properties]
+2017-05-08 19:31:17 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-05-08 19:31:17 [com.bjxc.jtt.JttClient]-[INFO] JTT连接到服务器59.32.177.26:3043
+2017-05-08 19:31:17 [com.bjxc.jtt.JTTHandler]-[INFO] 连接jtt成功
+2017-05-08 19:31:17 [com.bjxc.jtt.JttEncode]-[INFO] ---- jtt Encode ----
+2017-05-08 19:31:17 [com.bjxc.jtt.JttEncode]-[INFO] jtt发送消息: 5B000000480000000310010013D62C01020300000368700013D62D31333030303134003131322E37342E3132392E3700000000000000000000000000000000000000002124BC435D
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] TCP连接到省平台114.55.41.128:8585
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.client.ProvinceClient]-[INFO] Connect province tcp server success
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send start 
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send start 
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.MessageEncode]-[INFO] ---- MessageEncode ----
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.MessageEncode]-[INFO] ---- MessageEncode ----
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.MessageEncode]-[INFO] jspt send message:7E8001F0001100000888999900000001004130303431313233343536373800BC614E3E7E
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.MessageEncode]-[INFO] jspt send message:7E8001F0001100000888999900000001004130303431313233343536373800BC614E3E7E
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send end
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] province login send end
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] originalMessage：8081F0000100000888999900001A603C0137
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 省平台返回消息: ffff81f0
+2017-05-08 19:31:17 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 登录省平台返回结果：1
+2017-05-08 19:31:18 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:31:18 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] originalMessage：8081F0000100000888999900001A613C0136
+2017-05-08 19:31:18 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 省平台返回消息: ffff81f0
+2017-05-08 19:31:18 [com.bjxc.supervise.netty.client.ProvinceLoginAuthHandler]-[INFO] 登录省平台返回结果：1
+2017-05-08 19:31:18 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:31:18 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001F001829C010020013D62C0100000000036870010001E2401B925D
+2017-05-08 19:31:18 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001F, serialNumber=001829C0, type=1002, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=010001E2401B925D
+2017-05-08 19:31:19 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-05-08 19:31:19 [org.springframework.jdbc.support.SQLErrorCodesFactory]-[INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-05-08 19:31:19 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:31:19 [com.bjxc.supervise.netty.MessageDecoder]-[INFO] MessageDecoder---------
+2017-05-08 19:31:19 [com.bjxc.supervise.service.AutoRecordCheckService]-[INFO] 分钟学时自动审核开始.....36512826759659841704010929
+2017-05-08 19:31:19 [com.bjxc.jtt.JTTHandler]-[INFO] jtt回应
+2017-05-08 19:31:19 [com.bjxc.jtt.JTTHandler]-[INFO] jtt返回数据:　5B0000001F00182BB510020013D62C0100000000036870010001E24043B85D
+2017-05-08 19:31:19 [com.bjxc.jtt.JTTHandler]-[INFO] first=5B, length=0000001F, serialNumber=00182BB5, type=1002, code=0013D62C, version=010000, encrypt=00, key=00036870, data, crcCode, last=010001E24043B85D

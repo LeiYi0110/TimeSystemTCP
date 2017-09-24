@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bjxc.supervise.mapper.LocationInfoMapper">
+	<insert id="add" parameterType="com.bjxc.model.LocationInfo" useGeneratedKeys="true" keyProperty="id">
+		insert into r_location_info(alert_Info,status,latitude,longtitude,car_Speed,gps_Speed,
+		orientation,time,sum_distance,gasonline_cost,elevation,engine_speed,training_record_id,device_Id)
+		Values(#{alertInfo},#{status},#{latitude},#{longtitude},#{carSpeed},#{gpsSpeed},
+		#{orientation},#{time},#{sum_distance},#{gasonline_cost},#{elevation},#{engine_speed},#{trainingrecordid},#{deviceId})
+	</insert>
+</mapper>

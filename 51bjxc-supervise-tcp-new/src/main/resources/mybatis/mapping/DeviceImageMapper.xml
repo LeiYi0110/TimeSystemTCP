@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bjxc.supervise.mapper.DeviceImageMapper">
+	<insert id="add" parameterType="com.bjxc.model.DeviceImage" useGeneratedKeys="true" keyProperty="id">
+		insert into t_device_image(device_num,image_num,object_num,record_time,upload_mode,channel_no,image_size,event,course_Id,location_Id,face_probability,image_url,is_upload,package_num,data_size,create_time,training_record_id,photo_id,training_log_id) 
+		values(#{deviceNum},#{imageNum},#{objectNum},#{recordTime},#{uploadMode},#{channelNo},#{imageSize},#{event},#{courseId},#{locationId},#{faceProbability},#{imageUrl},#{isUpload},#{packageNum},#{dataSize},now(),#{trainingRecordId},#{photoId},#{trainingLogId})
+	</insert>
+</mapper>

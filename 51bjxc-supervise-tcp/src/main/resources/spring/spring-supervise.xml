@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+	http://www.springframework.org/schema/context 
+ 	http://www.springframework.org/schema/context/spring-context-4.0.xsd 
+   ">
+	<!-- <bean class="com.bjxc.supervise.netty.client.ProvinceClient" init-method="start"> -->
+	<bean class="com.bjxc.jtt.JttClient" init-method="start"></bean>
+	<bean class="com.bjxc.supervise.netty.client.ProvinceClient" init-method="start">
+		<property name="port">
+			<!-- <value>8383</value> -->
+			<value>8585</value>
+		</property>
+		<property name="host">
+			<!-- <value>114.55.89.156</value> -->
+			<value>114.55.41.128</value>
+		</property>
+		<!--  接入码 -->
+		<property name="connectCode">
+			<value>12345678</value>
+		</property>
+		<!-- 密码 -->
+		<property name="connectPassword">
+			<value>12345678</value>
+		</property>
+		<!-- 平台编号 -->
+		<property name="platformNumb">
+			<value>A0041</value>
+		</property>
+	</bean>
+	<!-- 服务端 -->
+	<bean class="com.bjxc.supervise.netty.server.TCPServer">
+		<property name="port">
+			<value>8585</value>
+		</property>
+		<property name="actionMap">
+			<map>
+				<entry key="100" value="com.bjxc.supervise.Action.RegisterAction"/>
+				<entry key="900" value="com.bjxc.supervise.Action.UpTransportAction"/>
+				<entry key="888" value="com.bjxc.supervise.Action.UpPhotoAction"/>
+				<entry key="ffff8900" value="com.bjxc.supervise.Action.DownTransportAction"/>
+				<entry key="7800" value="com.bjxc.supervise.Action.PhotoAction"/>
+				<!--  <entry key="102" value="com.bjxc.supervise.Action.AuthAction"/>-->
+				<entry key="3" value="com.bjxc.supervise.Action.DeregisterAction"/>
+				<entry key="ffff81f0" value="com.bjxc.supervise.Action.LoginAction"/>
+				<entry key="200" value="com.bjxc.supervise.Action.LocationQueryAction"/>
+				<entry key="201" value="com.bjxc.supervise.Action.LocationQueryAction"/>
+				<entry key="104" value="com.bjxc.supervise.Action.TerminalQueryAction"/>
+				<entry key="ffffffff" value="com.bjxc.supervise.Action.TriggerAction"/>
+
+			</map>
+		</property>
+	</bean>
+   <bean id="util" class="com.bjxc.supervise.Action.Utils" init-method="init">
+
+         <property name="locationInfoService" ref="locationInfoService"/>
+
+  </bean>
+	<bean id="registerAction" class="com.bjxc.supervise.Action.RegisterAction" scope="prototype"/>
+	<bean id="upPhotoAction" class="com.bjxc.supervise.Action.UpPhotoAction" scope="prototype"/>
+	<bean id="upTransportAction" class="com.bjxc.supervise.Action.UpTransportAction" scope="prototype"/>
+	<bean id="downTransportAction" class="com.bjxc.supervise.Action.DownTransportAction" scope="prototype"/>
+	<bean id="photoAction" class="com.bjxc.supervise.Action.PhotoAction" scope="prototype"/>
+	<!-- <bean id="authAction" class="com.bjxc.supervise.Action.AuthAction" scope="prototype"/> -->
+	<bean id="deregisterAction" class="com.bjxc.supervise.Action.DeregisterAction" scope="prototype"/>
+	
+	<bean id="triggerAction" class="com.bjxc.supervise.Action.TriggerAction" scope="prototype"/>
+	
+	<!-- <bean class="com.bjxc.supervise.service.PrivateKeyFactory" init-method="initPrivateKey"></bean> -->
+
+	<bean id="locationInfoAction" class="com.bjxc.supervise.Action.LocationInfoAction" scope="prototype"/>
+	<bean id="locationQueryAction" class="com.bjxc.supervise.Action.LocationQueryAction" scope="prototype"/>
+	<!-- <bean id="locationQueryAction" class="com.bjxc.supervise.Action.LocationQueryAction" scope="prototype"/> -->
+	<bean id="TerminalQuery" class="com.bjxc.supervise.Action.TerminalQueryAction" scope="prototype"/>
+	<bean id="LoginHandler" class="com.bjxc.supervise.netty.server.LoginAuthRequestHandler" scope="prototype"></bean>
+
+</beans>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+	http://www.springframework.org/schema/context 
+ 	http://www.springframework.org/schema/context/spring-context-4.0.xsd 
+   ">
+	<bean class="com.bjxc.supervise.netty.client.ProvinceClient" init-method="start">
+		<property name="port">
+			<value>8181</value>
+		</property>
+		<property name="host">
+			<value>114.55.89.156</value>
+		</property>
+		<!--  接入码 -->
+		<property name="connectCode">
+			<value>12345678</value>
+		</property>
+		<!-- 密码 -->
+		<property name="connectPassword">
+			<value>1</value>
+		</property>
+		<!-- 平台编号 -->
+		<property name="platformNumb">
+			<value>A0041</value>
+		</property>
+	</bean>
+	<!-- 服务端 -->
+	<bean class="com.bjxc.supervise.netty.server.TCPServer">
+		<property name="port">
+			<value>8585</value>
+		</property>
+		<property name="actionMap">
+			<map>
+				<entry key="100" value="com.bjxc.supervise.Action.RegisterAction"/>
+				<entry key="900" value="com.bjxc.supervise.Action.UpTransportAction"/>
+			</map>
+		</property>
+	</bean>
+	
+	<bean id="registerAction" class="com.bjxc.supervise.Action.RegisterAction" scope="prototype"/>
+	<bean id="upTransportAction" class="com.bjxc.supervise.Action.UpTransportAction" scope="prototype"/>
+
+
+</beans>

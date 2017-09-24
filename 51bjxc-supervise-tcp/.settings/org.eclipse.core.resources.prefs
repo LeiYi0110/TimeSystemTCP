@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/bjxc/supervise/Action/RegisterAction.java=UTF-8
+encoding//src/main/java/com/bjxc/supervise/netty/HexUtils.java=UTF-8
+encoding//src/main/java/com/bjxc/supervise/netty/Message.java=UTF-8
+encoding//src/main/java/com/bjxc/supervise/netty/server/TCPServer.java=UTF-8
+encoding//src/test/java/com/bjxc/supervise/client/TCPClient.java=UTF-8

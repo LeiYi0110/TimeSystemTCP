@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+	http://www.springframework.org/schema/context 
+ 	http://www.springframework.org/schema/context/spring-context-4.0.xsd 
+ 	http://cxf.apache.org/jaxws     
+    http://cxf.apache.org/schemas/jaxws.xsd">
+    <!-- 引用db.properties配置文件 -->
+	<context:property-placeholder location="classpath*:*.properties" />
+ 	<context:component-scan base-package="com.bjxc.supervise.service,com.bjxc.supervise.http.crypto" />
+ 	<!-- <import resource="classpath:META-INF/cxf/cxf.xml" /> -->
+ 	<import resource="spring-mybatis.xml"/>
+ 	<import resource="spring-supervise.xml"/>
+ 	<import resource="spring-http.xml"/>
+
+    <!-- 通过jaxws:server方式来配置webservice
+    <jaxws:server serviceClass="zz.java.driver.webservice.StudentWeb" address="/student">
+        <jaxws:serviceBean>
+            <ref bean="studentImpl" />
+        </jaxws:serviceBean>
+    </jaxws:server> -->
+
+</beans>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bjxc.supervise.mapper.TrainingRecordMapper">
+	<insert id="add" parameterType="com.bjxc.model.TrainingRecord" useGeneratedKeys="true" keyProperty="id">
+		insert into t_training_record(student_num,coach_num,training_car_num,device_num,course_code,subject_id,e_training_num,start_time,end_time,course_type,login_photo_id,logout_photo_id,mileage,avevelocity,is_province,create_time,is_institution_pass,institution_reason,student_Id,coach_id,device_id,training_car_Id) 
+		values(#{studentNum},#{coachNum},#{trainingcarNum},#{deviceNum},#{courseCode},#{subjectId},#{etrainingNum},#{startTime},#{endTime},#{courseType},#{loginPhotoId},#{logoutPhotoId},#{mileage},#{avevelocity},#{isProvince},now(),#{is_institution_pass},#{institution_reason},#{studentId},#{coachId},#{deviceId},#{trainingCarId})
+	</insert>
+</mapper>
